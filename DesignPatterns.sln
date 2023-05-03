@@ -59,7 +59,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Flyweight", "07.Flyweigh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Proxy", "08.Proxy", "{0F75EE88-A6F2-4665-A36D-D7ED4EFE77E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01BasicInterpreter", "01BasicInterpreter\01BasicInterpreter.csproj", "{489AF941-6FB9-40FA-BBCD-891104EB2673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanCalculator", "RomanCalculator\RomanCalculator.csproj", "{489AF941-6FB9-40FA-BBCD-891104EB2673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanCalculatorTest", "RomanCalculatorTest\RomanCalculatorTest.csproj", "{A501A3EE-3C25-4284-945A-7238947BED21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{489AF941-6FB9-40FA-BBCD-891104EB2673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{489AF941-6FB9-40FA-BBCD-891104EB2673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{489AF941-6FB9-40FA-BBCD-891104EB2673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A501A3EE-3C25-4284-945A-7238947BED21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A501A3EE-3C25-4284-945A-7238947BED21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A501A3EE-3C25-4284-945A-7238947BED21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A501A3EE-3C25-4284-945A-7238947BED21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{F29FB5FF-734A-4C92-AD33-AF33A4A35A71} = {457043F6-D55D-44C7-BC6D-F1CD708DDEB8}
 		{0F75EE88-A6F2-4665-A36D-D7ED4EFE77E1} = {457043F6-D55D-44C7-BC6D-F1CD708DDEB8}
 		{489AF941-6FB9-40FA-BBCD-891104EB2673} = {89A7AD94-A4A4-4DF3-B610-8A426A9CA4B3}
+		{A501A3EE-3C25-4284-945A-7238947BED21} = {89A7AD94-A4A4-4DF3-B610-8A426A9CA4B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E09CCBC-19D3-4A94-BEF1-338FA7FB946D}
