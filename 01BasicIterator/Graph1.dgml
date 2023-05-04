@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="215.281676025391,-117.530098320282,122.81,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ElementIterator" Icon="Microsoft.VisualStudio.Class.Public" Label="ElementIterator" SourceLocation="(Assembly=file:///C:/Users/harsh/source/repos/hthumbaraguddi/DesignPatterns/01BasicIterator/Program.cs StartLineNumber=34 StartCharacterOffset=17 EndLineNumber=34 EndCharacterOffset=32)" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="5.54583740234375,-123.529998321533,88.8166666666666,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Elements" Icon="Microsoft.VisualStudio.Class.Public" Label="Elements" SourceLocation="(Assembly=file:///C:/Users/harsh/source/repos/hthumbaraguddi/DesignPatterns/01BasicIterator/Program.cs StartLineNumber=78 StartCharacterOffset=17 EndLineNumber=78 EndCharacterOffset=25)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Interface" Bounds="-25.3219977451915,-227.529998321533,144.896666666667,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IElementsCollection" Icon="Microsoft.VisualStudio.Interface.Public" Label="IElementsCollection" SourceLocation="(Assembly=file:///C:/Users/harsh/source/repos/hthumbaraguddi/DesignPatterns/01BasicIterator/Program.cs StartLineNumber=29 StartCharacterOffset=21 EndLineNumber=29 EndCharacterOffset=40)" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Interface" Bounds="209.545837402344,-230.529998321533,131.096666666667,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IElementsIterator" Icon="Microsoft.VisualStudio.Interface.Public" Label="IElementsIterator" SourceLocation="(Assembly=file:///C:/Users/harsh/source/repos/hthumbaraguddi/DesignPatterns/01BasicIterator/Program.cs StartLineNumber=21 StartCharacterOffset=21 EndLineNumber=21 EndCharacterOffset=38)" UseManualLocation="True" />
+    <Node Id="Client" Bounds="123.66025316191,-349.030048320907,50.3766666666667,25.96" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@3" Target="@4" Bounds="103.359354544824,-109.116765746019,111.922321480567,2.96174002899679" />
+    <Link Source="@3" Target="@6" Bounds="275.404203693908,-195.53089194276,1.09926359620022,78.000793622478" />
+    <Link Source="@4" Target="@5" Bounds="47.7244410710812,-192.53332348711,1.87625027115394,69.0033251655772" />
+    <Link Source="Client" Target="@5" Bounds="63.785315587581,-323.070048320907,74.1979460762374,88.6387986564484" />
+    <Link Source="Client" Target="@6" Bounds="162.674666415472,-323.070048320907,92.0105616619014,86.3800221944424" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(a5052449-c73c-4742-92b3-263fafa96beb.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=_01BasicIterator" />
+    <Alias n="3" Id="(@1 @2 Type=ElementIterator)" />
+    <Alias n="4" Id="(@1 @2 Type=Elements)" />
+    <Alias n="5" Id="(@1 @2 Type=IElementsCollection)" />
+    <Alias n="6" Id="(@1 @2 Type=IElementsIterator)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="a5052449-c73c-4742-92b3-263fafa96beb.OutputPath" Value="C:\Users\harsh\source\repos\hthumbaraguddi\DesignPatterns\01BasicIterator\bin\Debug\net6.0\01BasicIterator.dll" />
+    <Path Id="a5052449-c73c-4742-92b3-263fafa96beb.OutputPathUri" Value="file:///C:/Users/harsh/source/repos/hthumbaraguddi/DesignPatterns/01BasicIterator/bin/Debug/net6.0/01BasicIterator.dll" />
+  </Paths>
+</DirectedGraph>
