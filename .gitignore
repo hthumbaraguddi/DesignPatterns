@@ -398,3 +398,11 @@ FodyWeavers.xsd
 *.sln.iml
 
 .vs/
+.vs/DesignPatterns/DesignTimeBuild/.dtbcache.v2
+.vs/ProjectEvaluation/*.*
+.vs/DesignPatterns/DesignTimeBuild/*.*
+.vs/DesignPatterns/v17/.futdcache.v2
+.vs/DesignPatterns/DesignTimeBuild/.dtbcache.v2
+.vs/DesignPatterns/DesignTimeBuild/.dtbcache.v2
+.vs/DesignPatterns/v17/.suo
+.vs/DesignPatterns/DesignTimeBuild/.dtbcache.v2
